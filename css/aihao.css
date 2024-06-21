@@ -1,0 +1,168 @@
+/*样式表文件out.css*/
+* {
+    /*全局选择器*/
+    margin: 0px;/*外边距*/
+    padding: 0px;/*内边距*/
+}
+
+
+body {
+    /*主体*/
+    color: rgb(42, 61, 79);
+    font-family:'Times New Roman', Times, serif;/*字体样式*/
+    background-image: url(../img/背景4.jpg) ;/*背景图片*/
+}
+.header {
+    /*头部*/
+    width: 100%;/*宽度*/
+    height: 150px;/*高度*/
+}
+#hi1 {
+    /*头部图片*/
+    width: 100%;/*宽度*/
+    height: 150px;/*高度*/
+}
+
+.dh ul {
+    /*导航栏*/
+   height:50px;/*高度*/
+   background-color:#b39858;
+   width: auto;
+   padding: 0px;/*内边距*/
+   margin-bottom: 30px;/*外边距*/
+}
+.dh ul li {/*导航栏行的设置*/
+    height: 50px;
+    width: 25%;
+    list-style: none;/*列表样式*/
+    float: left;/*左浮动*/
+    display: inline;
+    font: 0.9em;
+}
+
+.dh ul li a {/*导航栏链接设置*/
+    text-align: center;/*文本位置*/
+    color: white;
+    font-size: larger;/*字体大小*/
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0px;
+    text-decoration: none;/*列表样式*/
+    display: block;
+    background-color: rgb(87, 215, 241);
+    line-height: 50px;
+    border-bottom: 0px solid rgb(168, 164, 172);
+}
+
+.dh ul li a:hover {    /*鼠标划过导航栏时*/
+    background: linear-gradient(to right, rgb(201, 247, 241), rgb(145 168 208));  /* 设置背景颜色 */
+	color: rgb(112, 162, 216); /* 设置字体颜色 */
+	transform: scale(1.1); /* 设置缩放效果 */
+    
+}
+.footer {
+    /*尾部*/
+    margin-top: 1%;
+    clear: both;/*清楚浮动*/
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to right, rgb(201, 247, 241), rgb(145 168 208)); 
+    color:black;
+    font:20px 'Times New Roman', Times, serif;/*文字样式*/
+    text-align: center;
+}
+
+.footer p{
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.zhuti h2{/*主体标题设置*/
+    color: red;
+    font-family: 楷体;/*字体样式*/
+    font-size: x-large;
+    margin-top: 20px;
+}
+.zhuti{/*主体设置*/
+    text-align: center;/*文本居中*/
+    margin: 0px 200px 0px 200px;
+    background: linear-gradient(to right, rgb(201, 247, 241),rgb(201, 238, 201));
+}
+#danzai{/*蛋仔介绍*/
+    margin-top: 20px;
+    height: 300px;
+    background: linear-gradient(to right, rgb(201, 247, 241),rgb(201, 238, 201));
+    font-size: xx-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#danzai p{
+    letter-spacing: 2px;/*字间距*/
+    text-indent: 2em;/*缩进*/
+    line-height: 1.5em;/*行高设置*/
+    font-size: large;
+
+}
+#danzai img{/*蛋仔图片*/
+    height: 240px;
+    width: 280px;
+    float: left;
+    margin: 20px 10px 0px 0px;
+}
+#danzai img:hover {/*鼠标划过时*/
+    transform: scale(1.2);
+
+}
+
+#meishi{/*美食介绍*/
+    margin-top: 20px;
+    height: 300px;
+    background: linear-gradient(to right, rgb(201, 247, 241),rgb(201, 238, 201));
+    font-size: xx-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#meishi p{/*美食段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#meishi img{/*美食图片*/
+    height: 240px;
+    width: 280px;
+    float: left;
+    margin: 20px 10px 0px 0px;
+}
+#meishi img:hover {/*鼠标书籍图片时*/
+    transform: scale(1.2);
+
+}
+
+#shuji{/*书籍介绍*/
+    margin-top: 20px;
+    height: 300px;
+    background: linear-gradient(to right, rgb(201, 247, 241),rgb(201, 238, 201));
+    font-size: xx-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+#shuji p{/*书籍段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+#shuji img{/*书籍图片*/
+    height: 240px;
+    width: 280px;
+    float: left;
+    margin: 20px 10px 0px 0px;
+}
+#shuji img:hover {/*鼠标划过时书籍图片*/
+    transform: scale(1.2);
+
+}
+
